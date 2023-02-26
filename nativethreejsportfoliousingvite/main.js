@@ -17,7 +17,6 @@ const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
-console.log(cube);
 
 // Set up lighting
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
